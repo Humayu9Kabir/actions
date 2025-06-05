@@ -1,0 +1,14 @@
+name: Action2
+
+on: [push]
+
+jobs: 
+  second-job: 
+   runs-on: ubuntu-latest
+
+   steps: 
+     -name: Enter your name
+      run: echo "Enter your name:"
+           echo "Hello, $user_name!"
+            
+            
