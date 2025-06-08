@@ -6,9 +6,9 @@ jobs:
   second-job: 
    runs-on: ubuntu-latest
 
-   steps: 
+   steps:
      -name: Enter your name
-      run: echo "Enter your name:"
-           echo "Hello, $user_name!"
+      run:echo "Enter your name:"
+         
             
             
